@@ -12,14 +12,7 @@ function NavBarNavigation() {
     return (
         <ul className="nav navbar-nav">
             <li className="active"><a href="/">Home</a></li>
-            <li className="dropdown">
-                <a className="dropdown-toggle" data-toggle="dropdown" href={"#page1"}>Page 1<span className="caret"/></a>
-                <ul className="dropdown-menu">
-                    <li><a href="/">Page 1-1</a></li>
-                    <li><a href="/">Page 1-2</a></li>
-                    <li><a href="/">Page 1-3</a></li>
-                </ul>
-            </li>
+            <li><a href={"#page1"}>Page 1</a></li>
             <li><a href={"#page2"}>Page 2</a></li>
             <li><a href={"#page3"}>Page 3</a></li>
         </ul>
